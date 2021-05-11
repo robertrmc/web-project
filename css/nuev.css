@@ -1,0 +1,129 @@
+/*Parrafo es el estilo que siempre tendrán los encabezados */
+.parrafo{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top:12px;
+}   
+
+
+/* Seccion de estilizar las casillas y figuras de proyectos */
+.casillas {
+    background:  linear-gradient(to bottom,#103D93, #122B86,#000B59, #000 );
+    height: 280px;
+    border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+}
+.circulo{
+    width:184px;
+    height: 184px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#212224;
+  
+    margin-left:55px;
+}
+.circulocolor{
+    width:170px;
+    height: 170px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#03E104;
+    margin-left:113px;
+    margin-top:3px;
+    box-shadow: 0 0 7px #74FF75;
+}
+.circulocolor2{
+    width:170px;
+    height: 170px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#E3E70E;
+    margin-left:113px;
+    margin-top:3px;
+    box-shadow: 0 0 7px #FFF352;
+    
+}
+.circulocolor3{
+    width:170px;
+    height: 170px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#E70E0E;
+    margin-left:113px;
+    margin-top:3px;
+    box-shadow: 0 0 13px #FF6B6B;
+}
+.circulointerno{
+    width:145px;
+    height: 145px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:linear-gradient(to bottom,#103D93, #122B86,#000B59);
+    margin-left:125px;
+    margin-top:-173px;
+}
+
+.botoncentrado{
+    margin-left: 330px;
+    margin-top: -65px;
+}
+
+/* Seccion de barra de curriculum*/
+.fondocurriculum{   
+    background:linear-gradient(90deg,#000,#000B59,#103D93, #122B86,#000B59, #000 );
+    border-radius: 15px 15px 0px 0px;
+    -webkit-border-radius: 15px 15px 0px 0px;
+    -moz-border-radius: 15px 15px 0px 0px;
+}
+.fondocurriculum2{   
+    height:2px;
+    background:linear-gradient(90deg,#000, #000B59,#103D93, #122B86,#000B59, #000 );
+    border-radius: 0px 15px 15px 15px;
+    -webkit-border-radius: 0px 15px 15px 15px;
+    -moz-border-radius: 0px 15px 15px 15px;
+}
+.cartaeducacion{
+    font-family: "Ubuntu", sans-serif;
+    font-size:medium;
+    text-align: justify;
+}
+.test1{
+    margin-top: -110px;
+    margin-left: 165px;
+    font-family: "Ubuntu", sans-serif;
+    text-shadow :0 0 25px #000;
+}
+.test2{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    margin-top: 110px;
+    margin-left: 20px; 
+}
+
+/*Fondos de Proyectos*/
+.fondoweb{
+    background:linear-gradient(to bottom,#DEFFB7,#9AFF20, #81EC00 );
+    border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+}
+.fondogui{
+    background:linear-gradient(to bottom,#FCFFB6, #F3FD0A ,#DAE223);
+    border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+}
+.fondoarduino{
+    background:linear-gradient(to bottom,#FFB8B6,#FF534E, #FF342E );
+    border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+}
