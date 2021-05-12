@@ -108,4 +108,5 @@ Selectores compuestos
 /*Imagenes de proyecto*/
 .proyecto_imagen{
     max-width:auto;
+    max-height:auto;
 }
