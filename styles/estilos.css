@@ -1,0 +1,142 @@
+/*Seccion header*/
+.wholepage{
+    background: black;
+}
+.header{
+    background:linear-gradient(to bottom,#0C2452, #000) ;
+    font-family: "Ubuntu", sans-serif ;
+    position:fixed;
+    z-index:100 ;
+    overflow:hidden;
+    
+}
+.header__brand{
+   display: grid;
+   grid-template-columns: 0.8fr 2.5fr;
+   justify-items: flex-start;
+}
+.header__menu__listado{
+    font-family: "Ubuntu", sans-serif ;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.header__brand__logo{
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+}
+.header__brand__texto{
+    font-family: "Ubuntu", sans-serif ;
+}
+/*Sección presentación*/
+.presentacion{
+    padding-top:60px;
+}
+.presentacion .carousel-item{
+    min-height:90vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.presentacion .carousel-item:before{
+    content:'';
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+.presentacion .carousel-item .container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.presentacion .carousel-item h2{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 80px;
+    color: #ffff;
+    margin: 0 0 10px;
+    opacity: 0;
+}
+.presentacion .carousel-item p{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 30px;
+    margin:0;
+    color:#eeee;
+    opacity:0;
+}
+.presentacion .carousel-item.active h2{
+    animation: fadeInLeft 1s ease forwards;
+}
+.presentacion .carousel-item.active p{
+    animation: fadeInRight 1s ease forwards;
+}
+@keyframes fadeInLeft{
+    0%{
+        opacity:0;
+        transform:translateX(-30px);}
+    100%{
+        opacity:1;
+        transform: translateX(0px);}
+}
+@keyframes fadeInRight{
+    0%{
+        opacity:0;
+        transform:translateX(30px);}
+    100%{
+        opacity:1;
+        transform: translateX(0px);}
+}
+
+@media(max-width: 767px){
+    .presentacion .carousel-item h2{
+        font-size: 40px;
+    }
+    .presentacion .carousel-item p{
+        font-size: 15px;
+    }
+
+    
+    .piepagina{
+        font-size:12px !important;
+    }
+}
+
+/*Seccion curriculum*/
+.fondocurriculum{   
+    background:linear-gradient(to bottom, #000,#0C2452, #000)
+}
+.cartaeducacion{
+    font-family: "Ubuntu", sans-serif;
+    font-size:medium;
+    text-align: justify;
+}
+
+
+/*seccion pie de pagina*/
+.piepagina{
+    height:300px;
+    background:linear-gradient(to bottom,#181818, #000,#000, #000,#000, #000,#000 );
+    color: white;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    height:auto ;
+}
+.piepagina__contacto{
+    font-size: 30px;
+    font-weight: 800;
+}
+.contacto__link{
+    color:white !important;
+   
+}
+.contacto__link:hover{
+    color: #BFBFBF !important;
+}

@@ -1,0 +1,111 @@
+/*
+Selectores simples
+    selectores elementales
+        selector universar:  *
+        selector de tipo o etiqueda:  nombreetiqueta
+    selecores de atributo
+        id:  id del elemento
+        clase: clase del elemento
+        otro atributos
+
+Selectores compuestos
+    selectores agrupados
+    selectores combinadores
+    pseudoclases-pseudoelementos 
+*/
+/*Selectores de elemetnos*/
+
+/*Estilo de casilla #103D93, #122B86,#000B59, #000*/
+
+.casilla{
+    background:linear-gradient(to bottom, #122B86,#071040, #000 );
+    color: white;
+    width: 340px !important;
+    height: 340px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 10px #161616;
+    margin:2vw 2vw 2vw 2vw !important;
+    overflow:hidden;
+  }
+  .circulo{
+    width: 150px;
+    height: 150px;
+    background-color: linear-gradient(to bottom,#103D93, #122B86);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 10%;;
+    box-shadow: 0 0 0 9px #1BFB03,
+                0 0 10px 12px #1BFB03;
+  }
+  .circulo__texto{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 45px;
+    text-shadow: 0 0 1px #fff;
+    font-weight: 900;
+  }
+  .texto{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 45px; 
+  }
+  .texto__boton{ 
+    padding-top:38px;
+    text-align:left;
+  }
+  .row__casilla{
+    padding-top: 25px;
+  }
+  .row__contenedor{
+    justify-content: center;
+}
+.amarillo{
+    box-shadow: 0 0 0 9px #EEE600,
+                0 0 5px 12px #FFFA61;
+}
+.rojo{
+    box-shadow: 0 0 0 9px #DA0000,
+                0 0 5px 12px #FF4B4B;
+}
+
+  /*Estilos para tabla*/
+.cartaeducacion{
+    font-family: "Ubuntu", sans-serif;
+    font-size:medium;
+    text-align: justify;
+}
+.fondoweb{
+    background:linear-gradient(to bottom,#DEFFB7,#9AFF20, #81EC00 );
+    border-radius: 15px 15px 15px 15px;
+}
+.fondogui{
+    background:linear-gradient(to bottom,#FFFE53, #ECEB32 ,#E3E201);
+    border-radius: 15px 15px 15px 15px;
+  
+}
+.fondoarduino{
+    background:linear-gradient(to bottom,#FFB8B6,#FF534E, #FF342E );
+    border-radius: 15px 15px 15px 15px;
+}
+
+/*Parrafo es el estilo que siempre tendrán los encabezados */
+.parrafo{
+    padding-top:10px;
+    padding-left:9.5vw !important;
+ 
+}
+.parrafo__texto{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}  
+
+/*Imagenes de proyecto*/
+.proyecto_imagen{
+    max-width:auto;
+}
